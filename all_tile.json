@@ -1,0 +1,9 @@
+{
+    "type": "text",
+    "text": "Fun",
+    "subtext": "Dager til neste utbetaling",
+    "onClick": {
+        "type": "micro-app",
+        "apiUrl": "https://saeverything.azurewebsites.net/api/everything_microapp"
+    }
+}

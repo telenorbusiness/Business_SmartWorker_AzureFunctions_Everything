@@ -1,5 +1,5 @@
 const reftokenAuth = require("../auth");
-const all = require("../all.json");
+const all = require("../all_microapp.json");
 const Promise = require("bluebird");
 
 module.exports = function(context, req) {
