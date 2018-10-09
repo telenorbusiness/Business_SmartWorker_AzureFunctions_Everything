@@ -1,0 +1,916 @@
+{
+    "id": "main",
+    "sections": [
+        {
+            "searchableParameters": [
+                "title"
+            ],
+            "footer": "This is a test for the footer. This might be very long. No real limit here.",
+            "rows": [
+                {
+                    "type": "text",
+                    "title": "Just a title"
+                },
+                {
+                    "type": "text-area",
+                    "text": "A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text."
+                },
+                {
+                    "type": "text-area",
+                    "text": "*italics* or _italics_\r\n**bold** or __bold__\r\n\r\n# Header 1\r\n## Header 2\r\n### Header 3\r\n#### Header 4\r\n##### Header 5\r\n###### Header 6\r\n\r\n[Links](http://db.no/)\r\n\r\n## Bullet points:\r\n* First\r\n* Second\r\n* Third\r\n\r\n## List:\r\n1. Actual numbers don't matter, just that it's a number\r\n4. And another item."
+                },
+                {
+                    "type": "text",
+                    "title": "Title + subtitle max text length is long",
+                    "text": "This is the max length for subtitle also",
+                    "iOSLayout": "right-detail"
+                },
+                {
+                    "type": "text",
+                    "title": "Title + subtitle max text length is long",
+                    "text": "This is the max length for subtitle also",
+                    "iOSLayout": "subtitle"
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text 1",
+                    "text": "This is the max length for subtitle also",
+                    "content": "A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text.",
+                    "tag": "19:13",
+                    "numContentLines": 1
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text 2",
+                    "text": "This is the max length for subtitle also",
+                    "content": "A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text.",
+                    "tag": "19:14",
+                    "numContentLines": 2,
+                    "onClick": {
+                        "type": "text",
+                        "text": "Bacon ipsum dolor amet drumstick tri-tip burgdoggen, strip steak hamburger tenderloin bresaola shank alcatra ham. Kielbasa spare ribs cupim meatball jerky meatloaf pork. Corned beef strip steak jerky pancetta tail ham. Tail ball tip pork loin swine prosciutto cupim ham ham hock frankfurter brisket biltong bresaola doner bacon picanha. Prosciutto meatball cow, filet mignon biltong strip steak flank rump pork loin ribeye short ribs. Ball tip cupim pork chop, ribeye rump pancetta turkey prosciutto bresaola pork belly sirloin kielbasa frankfurter landjaeger.\n\nTri-tip meatloaf frankfurter corned beef pork loin leberkas bacon spare ribs ground round salami alcatra hamburger biltong tail. Drumstick venison swine, turducken shoulder tail chuck meatball pastrami meatloaf. Beef cupim ham hock turducken. Sirloin biltong drumstick, sausage shank cow swine tri-tip. Andouille shoulder frankfurter kevin spare ribs drumstick pork chop.\n\nShort loin cow landjaeger, salami andouille turkey sirloin meatloaf. Ribeye pork belly cupim ball tip drumstick. Jowl biltong spare ribs filet mignon tenderloin chicken drumstick hamburger andouille short loin. Pork chop prosciutto swine cow ground round shoulder drumstick meatloaf salami. Short ribs beef ribs picanha filet mignon venison tail swine tri-tip alcatra. Brisket ham pig pork belly biltong ribeye shoulder picanha tail drumstick.\n\nTail short ribs andouille t-bone meatball filet mignon ribeye venison leberkas pancetta hamburger sausage beef ribs jerky. Beef venison shoulder leberkas spare ribs bresaola pig strip steak. Jowl swine cupim venison tongue kielbasa sirloin boudin. Kielbasa t-bone picanha corned beef chuck shoulder."
+                    }
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text 0",
+                    "text": "This is the max length for subtitle also",
+                    "content": "A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text.",
+                    "tag": "19:15",
+                    "numContentLines": 0
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text 0 and icon",
+                    "text": "This is the max length for subtitle also",
+                    "content": "A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text.",
+                    "tag": "19:15",
+                    "thumbnailUrl": "http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211809793.png",
+                    "numContentLines": 0
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text no text",
+                    "content": "A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text.",
+                    "tag": "19:16",
+                    "numContentLines": 0
+                },
+                {
+                    "type": "rich-text",
+                    "numContentLines": 0,
+                    "content": "*italics* or _italics_\r\n**bold** or __bold__\r\n\r\n# Header 1\r\n## Header 2\r\n### Header 3\r\n#### Header 4\r\n##### Header 5\r\n###### Header 6\r\n\r\n[Links](http://db.no/)\r\n\r\n## Bullet points:\r\n* First\r\n* Second\r\n* Third\r\n\r\n## List:\r\n1. Actual numbers don't matter, just that it's a number\r\n4. And another item."
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text no content",
+                    "text": "This is the max length for subtitle also",
+                    "tag": "19:16"
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text no content no text no tag"
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text no content no text no tag",
+                    "content": "A really cool text. A really cool text. A really cool text."
+                },
+                {
+                    "type": "rich-text",
+                    "content": "JUST CONTENT. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text. A really cool text.",
+                    "numContentLines": 0,
+                    "onClick": {
+                        "type": "text",
+                        "text": "Bacon ipsum dolor amet drumstick tri-tip burgdoggen, strip steak hamburger tenderloin bresaola shank alcatra ham. Kielbasa spare ribs cupim meatball jerky meatloaf pork. Corned beef strip steak jerky pancetta tail ham. Tail ball tip pork loin swine prosciutto cupim ham ham hock frankfurter brisket biltong bresaola doner bacon picanha. Prosciutto meatball cow, filet mignon biltong strip steak flank rump pork loin ribeye short ribs. Ball tip cupim pork chop, ribeye rump pancetta turkey prosciutto bresaola pork belly sirloin kielbasa frankfurter landjaeger.\n\nTri-tip meatloaf frankfurter corned beef pork loin leberkas bacon spare ribs ground round salami alcatra hamburger biltong tail. Drumstick venison swine, turducken shoulder tail chuck meatball pastrami meatloaf. Beef cupim ham hock turducken. Sirloin biltong drumstick, sausage shank cow swine tri-tip. Andouille shoulder frankfurter kevin spare ribs drumstick pork chop.\n\nShort loin cow landjaeger, salami andouille turkey sirloin meatloaf. Ribeye pork belly cupim ball tip drumstick. Jowl biltong spare ribs filet mignon tenderloin chicken drumstick hamburger andouille short loin. Pork chop prosciutto swine cow ground round shoulder drumstick meatloaf salami. Short ribs beef ribs picanha filet mignon venison tail swine tri-tip alcatra. Brisket ham pig pork belly biltong ribeye shoulder picanha tail drumstick.\n\nTail short ribs andouille t-bone meatball filet mignon ribeye venison leberkas pancetta hamburger sausage beef ribs jerky. Beef venison shoulder leberkas spare ribs bresaola pig strip steak. Jowl swine cupim venison tongue kielbasa sirloin boudin. Kielbasa t-bone picanha corned beef chuck shoulder."
+                    }
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Rich text no content",
+                    "text": "This is the max length for subtitle also",
+                    "onClick": {
+                        "type": "text",
+                        "text": "Bacon ipsum dolor amet drumstick tri-tip burgdoggen, strip steak hamburger tenderloin bresaola shank alcatra ham. Kielbasa spare ribs cupim meatball jerky meatloaf pork. Corned beef strip steak jerky pancetta tail ham. Tail ball tip pork loin swine prosciutto cupim ham ham hock frankfurter brisket biltong bresaola doner bacon picanha. Prosciutto meatball cow, filet mignon biltong strip steak flank rump pork loin ribeye short ribs. Ball tip cupim pork chop, ribeye rump pancetta turkey prosciutto bresaola pork belly sirloin kielbasa frankfurter landjaeger.\n\nTri-tip meatloaf frankfurter corned beef pork loin leberkas bacon spare ribs ground round salami alcatra hamburger biltong tail. Drumstick venison swine, turducken shoulder tail chuck meatball pastrami meatloaf. Beef cupim ham hock turducken. Sirloin biltong drumstick, sausage shank cow swine tri-tip. Andouille shoulder frankfurter kevin spare ribs drumstick pork chop.\n\nShort loin cow landjaeger, salami andouille turkey sirloin meatloaf. Ribeye pork belly cupim ball tip drumstick. Jowl biltong spare ribs filet mignon tenderloin chicken drumstick hamburger andouille short loin. Pork chop prosciutto swine cow ground round shoulder drumstick meatloaf salami. Short ribs beef ribs picanha filet mignon venison tail swine tri-tip alcatra. Brisket ham pig pork belly biltong ribeye shoulder picanha tail drumstick.\n\nTail short ribs andouille t-bone meatball filet mignon ribeye venison leberkas pancetta hamburger sausage beef ribs jerky. Beef venison shoulder leberkas spare ribs bresaola pig strip steak. Jowl swine cupim venison tongue kielbasa sirloin boudin. Kielbasa t-bone picanha corned beef chuck shoulder."
+                    }
+                },
+                {
+                    "type": "rich-text",
+                    "title": "Markdown",
+                    "content": "**Markwon** is a library for Android that renders markdown as system-native Spannables. It gives ability to display markdown in all TextView widgets (**TextView**, **Button**, **Switch**, **CheckBox**, etc), **Notifications**, **Toasts**, etc. <u>**No WebView is required**<\/u>. Library provides reasonable defaults for display style of markdown but also gives all the means to tweak the appearance if desired. All markdown features are supported (including limited support for inlined HTML code, markdown tables and images).\r\n[![markwon](https:\/\/img.shields.io\/maven-central\/v\/ru.noties\/markwon.svg?label=markwon)](http:\/\/search.maven.org\/#search|ga|1|g%3A%22ru.noties%22%20AND%20a%3A%markwon%22)\r\n[![markwon-image-loader](https:\/\/img.shields.io\/maven-central\/v\/ru.noties\/markwon-image-loader.svg?label=markwon-image-loader)](http:\/\/search.maven.org\/#search|ga|1|g%3A%22ru.noties%22%20AND%20a%3A%markwon-image-loader%22)\r\n[![markwon-view](https:\/\/img.shields.io\/maven-central\/v\/ru.noties\/markwon-view.svg?label=markwon-view)](http:\/\/search.maven.org\/#search|ga|1|g%3A%22ru.noties%22%20AND%20a%3A%markwon-view%22)\r\n<sup>*<\/sup>*This file is displayed by default in the [sample-apk] application. Which is a generic markdown viewer with support to display markdown via `http`, `https` & `file` schemes and 2 themes included: Light & Dark*\r\n## Installation\r\n```groovy\r\ncompile 'ru.noties:markwon:1.0.3'\r\ncompile 'ru.noties:markwon-image-loader:1.0.3'\r\ncompile 'ru.noties:markwon-view:1.0.3'\r\n```\r\n## Supported markdown features:\r\n* Emphasis (`*`, `_`)\r\n* Strong emphasis (`**`, `__`)\r\n* Strike-through (`~~`)\r\n* Headers (`#{1,6}`)\r\n* Links (`[]()` && `[][]`)\r\n* Images (_requires special handling_)\r\n* Thematic break (`---`, `***`, `___`)\r\n* Quotes & nested quotes (`>{1,}`)\r\n* Ordered & non-ordered lists & nested ones\r\n* Inline code\r\n* Code blocks\r\n* Tables (*with limitations*)\r\n* Small subset of inline-html (which is rendered by this library):\r\n* * Emphasis (`<i>`, `<em>`, `<cite>`, `<dfn>`)\r\n* * Strong emphasis (`<b>`, `<strong>`)\r\n* * SuperScript (`<sup>`)\r\n* * SubScript (`<sub>`)\r\n* * Underline (`<u>`)\r\n* * Strike-through (`<s>`, `<strike>`, `<del>`)\r\n  * other inline html is rendered via (`Html.fromHtml(...)`)\r\n* Task lists:\r\n- [ ] Not _done_\r\n  - [X] **Done** with `X`\r\n  - [x] ~~and~~ **or** small `x`\r\n---\r\n## Emphasis\r\nEmphasis, aka italics, with *asterisks* or _underscores_.\r\nStrong emphasis, aka bold, with **asterisks** or __underscores__.\r\nCombined emphasis with **asterisks and _underscores_**.\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n---\r\n## Lists\r\n1. Actual numbers don't matter, just that it's a number\r\n  1. Ordered sub-list\r\n4. And another item.\r\n   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).\r\n   To have a line break without a paragraph, you will need to use two trailing spaces.\r\n   Note that this line is separate, but within the same paragraph.\r\n   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)\r\n* Unordered list can use asterisks\r\n---\r\n## Links\r\n[I'm an inline-style link](https:\/\/www.google.com)\r\n[I'm a reference-style link][Arbitrary case-insensitive reference text]\r\n[I'm a relative reference to a repository file](..\/blob\/master\/LICENSE)\r\n---\r\n## Code\r\nInline `code` has `back-ticks around` it.\r\n<sup>*<\/sup>*Please note, that syntax highlighting is supported but library provides no means to do it automatically*\r\n```javascript\r\nvar s = \"JavaScript syntax highlighting\";\r\nalert(s);\r\n```\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```\r\n---\r\n## Tables\r\nColons can be used to align columns.\r\n\r\nFirst Header | Second Header\r\n------------ | -------------\r\nContent from cell 1 | Content from cell 2\r\nContent in the first column | Content in the second column\r\n\r\nMarkdown | Less | Pretty\r\n--- | --- | ---\r\n*Still* | `renders` | **nicely**\r\n1 | 2 | 3\r\n\r\nThere must be at least 3 dashes separating each header cell.\r\nThe outer pipes (|) are optional, and you don't need to make the\r\nraw Markdown line up prettily. You can also use inline Markdown.\r\n"
+                },
+                {
+                    "thumbnailUrl": "http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211809793.png",
+                    "title": "Titley",
+                    "type": "text",
+                    "text": "Texty"
+                },
+                {
+                    "onClick": {
+                        "httpBody": {
+                            "test": "special value"
+                        },
+                        "alert": {
+                            "inputPlaceholder": "text in here",
+                            "dataType": "text",
+                            "inputKey": "alertInputTextValue",
+                            "defaultValue": "default",
+                            "title": "Alert title",
+                            "message": "A really cool message. A really cool message. A really cool message. A really cool message. A really cool message.",
+                            "type": "input-text"
+                        },
+                        "httpMethod": "POST",
+                        "type": "call-api",
+                        "url": "https://myserver.no/test",
+                        "includeInputKeys": [
+                            "notSavedValue",
+                            "alertInputTextValue"
+                        ]
+                    },
+                    "title": "Click bait",
+                    "type": "text",
+                    "text": "Action input with error"
+                },
+                {
+                    "onClick": {
+                        "httpBody": {
+                            "test": "special value"
+                        },
+                        "alert": {
+                            "type": "query",
+                            "title": "Alert title",
+                            "message": "A really cool message. A really cool message. A really cool message. A really cool message. A really cool message. A really cool message. A really cool message. A really cool message. A really cool message. A really cool message."
+                        },
+                        "httpMethod": "POST",
+                        "type": "call-api",
+                        "url": "https://myserver.no/test"
+                    },
+                    "title": "Click bait 2",
+                    "type": "text",
+                    "text": "Action query"
+                },
+                {
+                    "onClick": {
+                        "httpBody": {
+                            "test": "special value"
+                        },
+                        "alert": {
+                            "message": "A really cool message.",
+                            "title": "Alert title",
+                            "inputKey": "alertInputSelectionValue",
+                            "type": "input-selection",
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "label": "option 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "label": "option 2"
+                                },
+                                {
+                                    "id": "3",
+                                    "label": "option 3"
+                                },
+                                {
+                                    "id": "4",
+                                    "label": "option 4"
+                                },
+                                {
+                                    "id": "5",
+                                    "label": "option 5"
+                                },
+                                {
+                                    "id": "6",
+                                    "label": "option 6"
+                                }
+                            ]
+                        },
+                        "httpMethod": "POST",
+                        "type": "call-api",
+                        "url": "https://myserver.no/test",
+                        "includeInputKeys": [
+                            "alertInputSelectionValue"
+                        ]
+                    },
+                    "title": "Click bait 3",
+                    "type": "text",
+                    "text": "Action input selection"
+                },
+                {
+                    "onClick": {
+                        "type": "action-selection",
+                        "options": [
+                            {
+                                "label": "open url",
+                                "action": {
+                                    "type": "open-url",
+                                    "url": "http://www.dagbladet.no/",
+                                    "presentationType": "embedded"
+                                }
+                            },
+                            {
+                                "label": "open app",
+                                "action": {
+                                    "webLink": {
+                                        "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                                    },
+                                    "type": "open-app",
+                                    "iOSLink": {
+                                        "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                                    },
+                                    "androidLink": {
+                                        "appId": "com.medium.reader",
+                                        "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "title": "Click bait 4",
+                    "type": "text",
+                    "text": "Action options"
+                },
+                {
+                    "onClick": {
+                        "type": "text",
+                        "text": "Bacon ipsum dolor amet drumstick tri-tip burgdoggen, strip steak hamburger tenderloin bresaola shank alcatra ham. Kielbasa spare ribs cupim meatball jerky meatloaf pork. Corned beef strip steak jerky pancetta tail ham. Tail ball tip pork loin swine prosciutto cupim ham ham hock frankfurter brisket biltong bresaola doner bacon picanha. Prosciutto meatball cow, filet mignon biltong strip steak flank rump pork loin ribeye short ribs. Ball tip cupim pork chop, ribeye rump pancetta turkey prosciutto bresaola pork belly sirloin kielbasa frankfurter landjaeger.\n\nTri-tip meatloaf frankfurter corned beef pork loin leberkas bacon spare ribs ground round salami alcatra hamburger biltong tail. Drumstick venison swine, turducken shoulder tail chuck meatball pastrami meatloaf. Beef cupim ham hock turducken. Sirloin biltong drumstick, sausage shank cow swine tri-tip. Andouille shoulder frankfurter kevin spare ribs drumstick pork chop.\n\nShort loin cow landjaeger, salami andouille turkey sirloin meatloaf. Ribeye pork belly cupim ball tip drumstick. Jowl biltong spare ribs filet mignon tenderloin chicken drumstick hamburger andouille short loin. Pork chop prosciutto swine cow ground round shoulder drumstick meatloaf salami. Short ribs beef ribs picanha filet mignon venison tail swine tri-tip alcatra. Brisket ham pig pork belly biltong ribeye shoulder picanha tail drumstick.\n\nTail short ribs andouille t-bone meatball filet mignon ribeye venison leberkas pancetta hamburger sausage beef ribs jerky. Beef venison shoulder leberkas spare ribs bresaola pig strip steak. Jowl swine cupim venison tongue kielbasa sirloin boudin. Kielbasa t-bone picanha corned beef chuck shoulder."
+                    },
+                    "title": "Click bait",
+                    "type": "text",
+                    "text": "Detail text"
+                },
+                {
+                    "onClick": {
+                        "type": "image",
+                        "imageUrl": "https://i.ytimg.com/vi/TZJByZjfNwM/maxresdefault.jpg"
+                    },
+                    "title": "Click bait",
+                    "type": "text",
+                    "text": "Detail image"
+                },
+                {
+                    "onClick": {
+                        "type": "list",
+                        "texts": [
+                            "Line number 1 is the coolest",
+                            "Nope, line number 2 is coolest",
+                            "Nope, line number 3 is coolest",
+                            "Nope, line number 4 is coolest",
+                            "Nope, line number 5 is coolest",
+                            "This is getting ridiculous... It's line 6",
+                            "I won't play this game",
+                            "Line number 8 is the coolest",
+                            "Line number 2 is the coolest",
+                            "...",
+                            "This has to stop",
+                            "Line number 13 is the coolest",
+                            "...",
+                            "Line numb..."
+                        ]
+                    },
+                    "title": "Click bait",
+                    "type": "text",
+                    "text": "Detail list"
+                },
+                {
+                    "onClick": {
+                        "type": "open-url",
+                        "url": "https://www.engadget.com/"
+                    },
+                    "title": "Internal website",
+                    "type": "text"
+                },
+                {
+                    "onClick": {
+                        "type": "open-subview",
+                        "id": "a2324asdf"
+                    },
+                    "title": "Click bait",
+                    "type": "text",
+                    "text": "Sub micro app"
+                }
+            ],
+            "header": "Texts"
+        },
+        {
+            "rows": [
+                {
+                    "type": "input",
+                    "title": "Text",
+                    "form": {
+                        "dataType": "text",
+                        "inputKey": "input1",
+                        "defaultValue": "dEfAuLt",
+                        "type": "text",
+                        "multipleLines": false,
+                        "inputPlaceholder": "text here"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "URL",
+                    "form": {
+                        "dataType": "url",
+                        "inputKey": "inputurl",
+                        "type": "text",
+                        "multipleLines": false,
+                        "inputPlaceholder": "url here"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Multiple lines",
+                    "form": {
+                        "defaultValue": "dEfAuLt\nmany lines",
+                        "inputKey": "input2",
+                        "type": "text",
+                        "multipleLines": true,
+                        "dataType": "text"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Text number",
+                    "form": {
+                        "type": "text",
+                        "inputKey": "input3",
+                        "dataType": "number"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Text phone",
+                    "form": {
+                        "type": "text",
+                        "inputKey": "input4",
+                        "dataType": "phone"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Text decimal",
+                    "form": {
+                        "type": "text",
+                        "inputKey": "input5",
+                        "dataType": "decimal"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Text email",
+                    "form": {
+                        "type": "text",
+                        "inputKey": "input6",
+                        "dataType": "email"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Number limits",
+                    "form": {
+                        "defaultValue": 2,
+                        "inputKey": "input7",
+                        "limits": [
+                            {
+                                "type": "lower-value",
+                                "value": 1,
+                                "includeValue": true
+                            },
+                            {
+                                "type": "step-value",
+                                "value": 2
+                            }
+                        ],
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Number more limits",
+                    "form": {
+                        "defaultValue": 3,
+                        "inputKey": "input8",
+                        "limits": [
+                            {
+                                "type": "upper-value",
+                                "value": 5,
+                                "includeValue": false
+                            },
+                            {
+                                "type": "lower-value",
+                                "value": -1,
+                                "includeValue": true
+                            }
+                        ],
+                        "type": "number"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Number ref limits",
+                    "form": {
+                        "type": "number",
+                        "inputKey": "input9",
+                        "limits": [
+                            {
+                                "type": "upper-reference",
+                                "inputKey": "input7",
+                                "includeValue": false
+                            },
+                            {
+                                "type": "lower-reference",
+                                "inputKey": "input8",
+                                "includeValue": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Check box",
+                    "form": {
+                        "type": "checkbox",
+                        "inputKey": "inputbox",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Check box 2",
+                    "form": {
+                        "type": "checkbox",
+                        "inputKey": "inputbox2",
+                        "defaultValue": false
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Selection",
+                    "form": {
+                        "message": "This is a cool message.",
+                        "inputKey": "inputselection",
+                        "options": [
+                            {
+                                "id": "1",
+                                "label": "Dagsreise innenlands"
+                            },
+                            {
+                                "id": "2",
+                                "label": "KilometergodtgjÃƒÂ¸relse"
+                            },
+                            {
+                                "id": "3",
+                                "label": "Tjenestereise",
+                                "defaultSelected": true
+                            },
+                            {
+                                "id": "4",
+                                "label": "Utgiftsrefusjon"
+                            }
+                        ],
+                        "type": "selection"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Multi-selection",
+                    "form": {
+                        "message": "This is a cool message.",
+                        "inputKey": "inputselection2",
+                        "multipleSelections": true,
+                        "type": "selection",
+                        "options": [
+                            {
+                                "id": "1",
+                                "label": "Dagsreise innenlands",
+                                "defaultSelected": true
+                            },
+                            {
+                                "id": "2",
+                                "label": "KilometergodtgjÃƒÂ¸relse",
+                                "defaultSelected": false
+                            },
+                            {
+                                "id": "3",
+                                "label": "Tjenestereise",
+                                "defaultSelected": true
+                            },
+                            {
+                                "id": "4",
+                                "label": "Utgiftsrefusjon"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Date",
+                    "form": {
+                        "defaultValue": 1484551864,
+                        "inputKey": "date1",
+                        "message": "This is a cool message.",
+                        "type": "datetime",
+                        "dataType": "date"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Date limit",
+                    "form": {
+                        "inputKey": "date2",
+                        "message": "This is a cool message.",
+                        "limits": [
+                            {
+                                "type": "lower-reference",
+                                "inputKey": "date1",
+                                "includeValue": true
+                            }
+                        ],
+                        "type": "datetime",
+                        "dataType": "date"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Datetime",
+                    "form": {
+                        "defaultValue": 1484551864,
+                        "inputKey": "date3",
+                        "message": "This is a cool message.",
+                        "type": "datetime",
+                        "dataType": "datetime"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Time",
+                    "form": {
+                        "defaultValue": 50400,
+                        "inputKey": "date4",
+                        "message": "This is a cool message.",
+                        "type": "datetime",
+                        "dataType": "time"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Weekday",
+                    "form": {
+                        "defaultValue": 6,
+                        "inputKey": "date5",
+                        "message": "This is a cool message.",
+                        "limits": [
+                            {
+                                "type": "lower-value",
+                                "value": 4,
+                                "includeValue": true
+                            }
+                        ],
+                        "type": "datetime",
+                        "dataType": "weekday"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Week",
+                    "form": {
+                        "defaultValue": 30,
+                        "inputKey": "date6",
+                        "message": "This is a cool message.",
+                        "limits": [
+                            {
+                                "type": "lower-value",
+                                "value": 12,
+                                "includeValue": true
+                            },
+                            {
+                                "type": "upper-value",
+                                "value": 32,
+                                "includeValue": true
+                            }
+                        ],
+                        "type": "datetime",
+                        "dataType": "week"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Month",
+                    "form": {
+                        "defaultValue": 5,
+                        "inputKey": "date7",
+                        "message": "This is a cool message.",
+                        "limits": [
+                            {
+                                "type": "lower-value",
+                                "value": 3,
+                                "includeValue": true
+                            }
+                        ],
+                        "type": "datetime",
+                        "dataType": "month"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Year",
+                    "form": {
+                        "defaultValue": 1999,
+                        "inputKey": "date8",
+                        "message": "This is a cool message.",
+                        "limits": [
+                            {
+                                "type": "lower-value",
+                                "value": 1990,
+                                "includeValue": true
+                            }
+                        ],
+                        "type": "datetime",
+                        "dataType": "year"
+                    }
+                },
+                {
+                    "type": "input",
+                    "title": "Image (2)",
+                    "form": {
+                        "inputKey": "date9",
+                        "message": "This is a cool message.",
+                        "type": "image",
+                        "maxAttachments": 2
+                    }
+                }
+            ],
+            "header": "Inputs"
+        },
+        {
+            "rows": [
+                {
+                    "onClick": {
+                        "alert": {
+                            "type": "query",
+                            "title": "Send"
+                        },
+                        "httpMethod": "POST",
+                        "type": "call-api",
+                        "url": "https://myserver.no/test",
+                        "includeInputKeys": [
+                            "input1",
+                            "input2",
+                            "input3",
+                            "input4",
+                            "input5",
+                            "input6",
+                            "input7",
+                            "input8",
+                            "input9",
+                            "inputbox",
+                            "inputbox2",
+                            "inputselection",
+                            "inputselection2",
+                            "date1",
+                            "date2",
+                            "date3",
+                            "date4",
+                            "date5",
+                            "date6",
+                            "date7",
+                            "date8",
+                            "date9"
+                        ]
+                    },
+                    "title": "Call api - query",
+                    "type": "button",
+                    "colorStyling": "positive"
+                },
+                {
+                    "requiredInputKeys": [
+                        "date6"
+                    ],
+                    "onClick": {
+                        "httpMethod": "POST",
+                        "type": "call-api",
+                        "url": "https://myserver.no/test",
+                        "includeInputKeys": [
+                            "date6"
+                        ]
+                    },
+                    "title": "Call api - req. week",
+                    "type": "button"
+                },
+                {
+                    "type": "button",
+                    "title": "Call api - input txt",
+                    "onClick": {
+                        "httpBody": {
+                            "test": "special value"
+                        },
+                        "alert": {
+                            "message": "A really cool message. A really cool message. A really cool message. A really cool message. A really cool message.",
+                            "title": "Alert title",
+                            "inputKey": "alertInputTextValue",
+                            "type": "input-text",
+                            "inputPlaceholder": "text in here",
+                            "dataType": "text"
+                        },
+                        "httpMethod": "POST",
+                        "type": "call-api",
+                        "url": "https://myserver.no/test",
+                        "includeInputKeys": [
+                            "alertInputTextValue"
+                        ]
+                    }
+                },
+                {
+                    "type": "button",
+                    "title": "Call api - selection",
+                    "onClick": {
+                        "alert": {
+                            "message": "A really cool message.",
+                            "title": "Alert title",
+                            "inputKey": "alertInputSelectionValue",
+                            "type": "input-selection",
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "label": "option 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "label": "option 2"
+                                },
+                                {
+                                    "id": "3",
+                                    "label": "option 3"
+                                },
+                                {
+                                    "id": "4",
+                                    "label": "option 4"
+                                },
+                                {
+                                    "id": "5",
+                                    "label": "option 5"
+                                },
+                                {
+                                    "id": "6",
+                                    "label": "option 6"
+                                }
+                            ]
+                        },
+                        "httpMethod": "POST",
+                        "type": "call-api",
+                        "url": "https://myserver.no/test",
+                        "includeInputKeys": [
+                            "alertInputSelectionValue"
+                        ]
+                    }
+                },
+                {
+                    "type": "button",
+                    "title": "Open url - external",
+                    "onClick": {
+                        "type": "open-url",
+                        "url": "http://www.dagbladet.no/",
+                        "presentationType": "external"
+                    }
+                },
+                {
+                    "type": "button",
+                    "title": "Open url - internal",
+                    "onClick": {
+                        "type": "open-url",
+                        "url": "http://www.dagbladet.no/",
+                        "presentationType": "internal"
+                    }
+                },
+                {
+                    "type": "button",
+                    "title": "Open url - embedded",
+                    "onClick": {
+                        "type": "open-url",
+                        "url": "http://www.dagbladet.no/",
+                        "presentationType": "embedded"
+                    }
+                },
+                {
+                    "type": "button",
+                    "title": "Open app",
+                    "onClick": {
+                        "webLink": {
+                            "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                        },
+                        "type": "open-app",
+                        "iOSLink": {
+                            "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                        },
+                        "androidLink": {
+                            "appId": "com.medium.reader",
+                            "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                        }
+                    }
+                },
+                {
+                    "type": "button",
+                    "title": "Call api - options",
+                    "onClick": {
+                        "type": "action-selection",
+                        "options": [
+                            {
+                                "label": "open url",
+                                "action": {
+                                    "type": "open-url",
+                                    "url": "http://www.dagbladet.no/"
+                                }
+                            },
+                            {
+                                "label": "open app",
+                                "action": {
+                                    "webLink": {
+                                        "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                                    },
+                                    "type": "open-app",
+                                    "iOSLink": {
+                                        "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                                    },
+                                    "androidLink": {
+                                        "appId": "com.medium.reader",
+                                        "appUrl": "https://medium.com/woah-basecamp-3/basecamp-3-adoptional-555e26a4b8b2"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "onClick": {
+                        "type": "clear-form"
+                    },
+                    "title": "Clear all",
+                    "type": "button",
+                    "colorStyling": "negative"
+                }
+            ],
+            "header": "Buttons"
+        }
+    ],
+    "search": {
+        "type": "local",
+        "placeholder": "Search here"
+    },
+    "subviews": [
+        {
+            "id": "a2324asdf",
+            "title": "Second",
+            "canRefresh": true,
+            "search": {
+                "type": "local",
+                "placeholder": "Search here"
+            },
+            "sections": [
+                {
+                    "searchableParameters": [
+                        "title"
+                    ],
+                    "rows": [
+                        {
+                            "type": "text",
+                            "title": "Just a title"
+                        },
+                        {
+                            "type": "text",
+                            "title": "Just another title"
+                        },
+                        {
+                            "onClick": {
+                                "type": "call-api",
+                                "url": "https://www.jasonbase.com/things/MW7E.json",
+                                "httpMethod": "GET"
+                            },
+                            "title": "Get subview",
+                            "type": "button"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
