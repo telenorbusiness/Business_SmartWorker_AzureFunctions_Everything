@@ -15,4 +15,8 @@ module.exports = function(context, req) {
       return context.done(null, res);
     }
   })
+  .catch(error => {
+    context.log(error);
+    context.done(null, ""+error);
+  })
 }
