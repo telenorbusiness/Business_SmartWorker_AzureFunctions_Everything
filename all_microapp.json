@@ -672,7 +672,7 @@
                         },
                         "httpMethod": "POST",
                         "type": "call-api",
-                        "url": "https://myserver.no/test",
+                        "url": "https://saeverything.azurewebsites.net/api/joke_please",
                         "includeInputKeys": [
                             "input1",
                             "input2",
