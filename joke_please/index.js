@@ -13,16 +13,17 @@ module.exports = function(context, req) {
     return request(options)
   })
   .then(result => {
-    action = {
+    const action = {
       type: "feedback",
       title: "a joke?",
       message: result
     }
 
-    res = {
+    const res = {
       status: 200,
       body: action
     };
+    
     context.done(null, res);
   })
 }
