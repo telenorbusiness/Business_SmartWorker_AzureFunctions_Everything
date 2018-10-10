@@ -23,7 +23,10 @@ module.exports = function(context, req) {
       status: 200,
       body: action
     };
-    
+
     context.done(null, res);
+  })
+  .catch(err => {
+    context.done(null, err);
   })
 }
