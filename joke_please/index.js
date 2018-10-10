@@ -1,10 +1,11 @@
-const request = require('request-promise')
+const request = require('request-promise');
+const Promise = require("bluebird");
 
 module.exports = function(context, req) {
   Promise.try(() => {
     return reftokenAuth(req, context);
   })
-  .then(result => {
+  .then(() => {
     let options = {
       url: 'https://geek-jokes.sameerkumar.website/api',
       method: 'GET'
@@ -12,10 +13,16 @@ module.exports = function(context, req) {
     return request(options)
   })
   .then(result => {
+    action = {
+      type: "feedback",
+      title: "a joke?",
+      message: result
+    }
+
     res = {
       status: 200,
-      body: result.body
-    }
-    context.done(null, res)
+      body: action
+    };
+    context.done(null, res);
   })
 }
