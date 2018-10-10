@@ -1,4 +1,5 @@
 const request = require('request-promise');
+const reftokenAuth = require("../auth");
 const Promise = require("bluebird");
 
 module.exports = function(context, req) {
