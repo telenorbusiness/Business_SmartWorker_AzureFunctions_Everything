@@ -26,7 +26,8 @@ module.exports = function(context, req) {
 
     context.done(null, res);
   })
-  .catch(err => {
-    context.done(null, err);
+  .catch(error => {
+    context.log(error);
+    context.done(null, ""+error);
   })
 }
