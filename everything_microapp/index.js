@@ -7,7 +7,6 @@ module.exports = function(context, req) {
     return reftokenAuth(req, context);
   })
   .then(result => {
-    context.log("heyyy mama")
     if(result.status === 200){
       let res = {
         status: 200,
