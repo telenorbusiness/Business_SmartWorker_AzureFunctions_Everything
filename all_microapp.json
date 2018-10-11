@@ -734,7 +734,7 @@
                         },
                         "httpMethod": "POST",
                         "type": "call-api",
-                        "url": "https://saeverything.azurewebsites.net/api/joke_pleaset",
+                        "url": "https://saeverything.azurewebsites.net/api/joke_please",
                         "includeInputKeys": [
                             "alertInputTextValue"
                         ]
