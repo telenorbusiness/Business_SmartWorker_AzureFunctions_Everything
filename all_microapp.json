@@ -799,7 +799,7 @@
                     "onClick": {
                         "type": "open-url",
                         "url": "http://www.dagbladet.no/",
-                        "presentationType": "external",
+                        "presentationType": "internal",
                         "reloadOnBack": true
                     }
                 },
