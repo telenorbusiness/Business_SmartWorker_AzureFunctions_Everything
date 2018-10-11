@@ -709,7 +709,7 @@
                     "onClick": {
                         "httpMethod": "POST",
                         "type": "call-api",
-                        "url": "https://myserver.no/test",
+                        "url": "https://saeverything.azurewebsites.net/api/joke_please",
                         "includeInputKeys": [
                             "date6"
                         ]
@@ -734,7 +734,7 @@
                         },
                         "httpMethod": "POST",
                         "type": "call-api",
-                        "url": "https://myserver.no/test",
+                        "url": "https://saeverything.azurewebsites.net/api/joke_pleaset",
                         "includeInputKeys": [
                             "alertInputTextValue"
                         ]
@@ -778,7 +778,7 @@
                         },
                         "httpMethod": "POST",
                         "type": "call-api",
-                        "url": "https://myserver.no/test",
+                        "url": "https://saeverything.azurewebsites.net/api/joke_please",
                         "includeInputKeys": [
                             "alertInputSelectionValue"
                         ]
