@@ -795,6 +795,16 @@
                 },
                 {
                     "type": "button",
+                    "title": "Open url - reload on back",
+                    "onClick": {
+                        "type": "open-url",
+                        "url": "http://www.dagbladet.no/",
+                        "presentationType": "external",
+                        "reloadOnBack": true
+                    }
+                },
+                {
+                    "type": "button",
                     "title": "Open url - internal",
                     "onClick": {
                         "type": "open-url",
