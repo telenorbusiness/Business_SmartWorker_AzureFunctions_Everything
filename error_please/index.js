@@ -1,12 +1,12 @@
 const reftokenAuth = require("../auth");
-const all = require("../all_microapp.json");
+const all = require("../all_tile.json");
 const Promise = require("bluebird");
 
 module.exports = function(context, req) {
   Promise.try(() => {
       let res = {
-        status: 500,
-        body: "Error: all the error"
+        status: 200,
+        body: all
       }
       return context.done(null, res);
   })
