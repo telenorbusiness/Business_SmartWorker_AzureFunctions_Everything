@@ -1,9 +1,16 @@
-const reftokenAuth = require("../auth");
-const all = require("../all_tile.json");
 const Promise = require("bluebird");
 
 module.exports = function(context, req) {
   Promise.try(() => {
+      const all = {
+        "type": "text",
+        "text": "Feiler dette eller?",
+        "subtext": "Ja takk",
+        "onClick": {
+            "type": "micro-app",
+            "apiUrl": "https://saeverything.azurewebsites.net/api/everything_microapp"
+        }
+      }
       let res = {
         status: 200,
         body: all
