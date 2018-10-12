@@ -8,7 +8,7 @@ module.exports = function(context, req) {
         "subtext": "Ja takk",
         "onClick": {
             "type": "micro-app",
-            "apiUrl": "https://saeverything.azurewebsites.net/api/everything_microapp"
+            "apiUrl": "https://saeverything.azurewebsites.net/api/error_please_microapp"
         }
       }
       let res = {
