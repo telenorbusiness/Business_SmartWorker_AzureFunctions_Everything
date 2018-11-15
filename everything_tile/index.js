@@ -17,15 +17,18 @@ module.exports = function(context, req) {
       }
       return context.done(null, res);
     }else{
-      let res = {
-        status: 400,
-        body: "bad request"
-      }
-      return context.done(null, res);
+      throw new atWorkValidateError("Atwork validation error", response);
     }
   })
   .catch(error => {
     context.log(error);
     context.done(null, ""+error);
   })
+}
+
+class atWorkValidateError extends Error {
+  constructor(message, response) {
+    super(message);
+    this.response = response;
+  }
 }
