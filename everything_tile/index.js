@@ -7,8 +7,6 @@ module.exports = function(context, req) {
     return reftokenAuth(req, context);
   })
   .then(result => {
-    context.log("result");
-    context.log(result);
     if(result.status === 200 && result.phone_number){
       all.text = result.phone_number+"";
       let res = {
@@ -17,7 +15,7 @@ module.exports = function(context, req) {
       }
       return context.done(null, res);
     }else{
-      throw new atWorkValidateError("Atwork validation error", response);
+      throw new atWorkValidateError("Atwork validation error", result);
     }
   })
   .catch(error => {
