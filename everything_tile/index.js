@@ -7,11 +7,17 @@ module.exports = function(context, req) {
     return reftokenAuth(req, context);
   })
   .then(result => {
-    if(result.status === 200){
+    if(result.status === 200 && result.phone_number){
       all.text = result.phone_number+"";
       let res = {
         status: 200,
         body: all
+      }
+      return context.done(null, res);
+    }else{
+      let res = {
+        status: 400,
+        body: "bad request"
       }
       return context.done(null, res);
     }
