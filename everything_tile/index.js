@@ -7,7 +7,8 @@ module.exports = function(context, req) {
     return reftokenAuth(req, context);
   })
   .then(result => {
-    if(result.status === 200 && !(result.success === false)){
+    context.log(result);
+    if(result.status === 200 && !result.hasOwnProperty('success')){
       if(result.phone_number) {
         all.text = result.phone_number+"";
         let res = {
