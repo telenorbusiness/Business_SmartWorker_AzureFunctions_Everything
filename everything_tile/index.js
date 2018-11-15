@@ -1,6 +1,7 @@
 const reftokenAuth = require("../auth");
 const all = require("../all_tile.json");
 const Promise = require("bluebird");
+const lodash = require("lodash");
 
 module.exports = function(context, req) {
   Promise.try(() => {
@@ -8,7 +9,8 @@ module.exports = function(context, req) {
   })
   .then(result => {
     context.log(result);
-    if(result.status === 200 && !result.hasOwnProperty('success')){
+    const messageSuccess = lodash.get(result, "message.success", undefined);
+    if(result.status === 200 && (messageSuccess === undefined || messageSuccess)){
       if(result.phone_number) {
         all.text = result.phone_number+"";
         let res = {
