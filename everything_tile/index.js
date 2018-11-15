@@ -8,7 +8,6 @@ module.exports = function(context, req) {
     return reftokenAuth(req, context);
   })
   .then(result => {
-    context.log(result);
     const messageSuccess = lodash.get(result, "message.success", undefined);
     if(result.status === 200 && (messageSuccess === undefined || messageSuccess)){
       if(result.phone_number) {
