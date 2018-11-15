@@ -8,7 +8,7 @@ module.exports = function(context, req) {
   })
   .then(result => {
     if(result.status === 200){
-      all.text = ""+Math.floor(Math.random() * Math.floor(200)+" for "+result.phone_number);
+      all.text = result.phone_number+"";
       let res = {
         status: 200,
         body: all
