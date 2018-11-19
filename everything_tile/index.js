@@ -8,8 +8,6 @@ module.exports = function(context, req) {
     return reftokenAuth(req, context);
   })
   .then(result => {
-    context.log("result");
-    context.log(result);
     if(result.success === true){
       if(result.phone_number) {
         all.text = result.phone_number+"";
