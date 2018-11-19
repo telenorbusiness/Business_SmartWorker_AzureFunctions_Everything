@@ -39,23 +39,7 @@ let authenticateReferenceToken = function(req, context) {
       return Promise.resolve({ status: 401, message: "Auth header missing" });
     } else {
       const token = req.headers.authorization.replace(/(?:(B|b)earer )/, "");
-      return client.userinfo(token).then(userinfo => {
-        if (userinfo.success === true) {
-            context.log(userinfo)
-          return Promise.resolve({
-            status: 200,
-            phone_number: userinfo.phone_number,
-            configId: userinfo.configId,
-            administrator: userinfo.administrator
-          });
-        } else if (!lodash.isUndefined(userinfo.error)) {
-          return Promise.resolve({ status: 200, message: userinfo });
-        } else {
-          throw new Error(
-            `This is not a reference token: ${JSON.stringify(userinfo)}`
-          );
-        }
-      });
+      return client.userinfo(token);
     }
   });
 };
