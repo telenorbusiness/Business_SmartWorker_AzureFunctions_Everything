@@ -39,7 +39,10 @@ let authenticateReferenceToken = function(req, context) {
       return Promise.resolve({ status: 401, message: "Auth header missing" });
     } else {
       const token = req.headers.authorization.replace(/(?:(B|b)earer )/, "");
-      return client.userinfo(token);
+      return client.userinfo(token)
+        .catch(err => {
+          context.log(err);
+        })
     }
   });
 };
