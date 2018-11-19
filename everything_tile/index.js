@@ -10,7 +10,7 @@ module.exports = function(context, req) {
   .then(result => {
     context.log("result");
     context.log(result);
-    if(result.status === 200 && result.success === true){
+    if(result.success === true){
       if(result.phone_number) {
         all.text = result.phone_number+"";
         let res = {
